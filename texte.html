@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Coffre-Fort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="safe-container">
+        <h2>🔒 Coffre-Fort Web</h2>
+        
+        <!-- Écran de verrouillage -->
+        <div id="auth-screen">
+            <p>Entrez le code secret :</p>
+            <input type="password" id="passcode" placeholder="Ex: 1234">
+            <button onclick="checkCode()">Ouvrir</button>
+            <p id="error-msg" style="color: red;"></p>
+        </div>
+
+        <!-- Contenu secret (masqué par défaut) -->
+        <div id="secret-content" style="display: none;">
+            <h3>🎉 Accès autorisé !</h3>
+            <p>Voici votre message secret ou vos données confidentielles.</p>
+            <button onclick="lockSafe()">Verrouiller à nouveau</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
