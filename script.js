@@ -1,8 +1,8 @@
 // 1. Liste des énigmes (Indices et Réponses)
 const etapes = [
     {
-        indice: "Indice 1 : Je commence la journée mais je ne la termine pas. Qui suis-je ? (En une lettre)",
-        reponse: "j"
+        indice: "Indice 0 : Si Moriarty peut-être noir et femme, Sébastien peut prétendre être Sherlock Holmes. Mais il devra le prouver en utilisant son sens de l’observation, sa déduction implacable et ses compétences informatiques. Es-tu prêt à commencer le jeu ?",
+        reponse: "oui"
     },
     {
         indice: "Indice 2 : Bravo ! Deuxième étape. Je suis vert, j'ai des feuilles mais je ne suis pas un arbre. On me tourne pour lire.",

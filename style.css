@@ -59,3 +59,10 @@ button:hover {
 .error {
     color: #e74c3c;
 }
+
+.image-coffre {
+    max-width: 100%; /* L'image s'adapte à la largeur du conteneur */
+    height: auto;
+    border-radius: 8px; /* Optionnel : arrondit les coins */
+    margin-bottom: 15px; /* Espace sous l'image */
+}
