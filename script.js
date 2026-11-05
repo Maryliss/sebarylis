@@ -22,6 +22,8 @@ const messageElement = document.getElementById("message-retour");
 const etapeTitre = document.getElementById("etape-titre");
 const indiceTexte = document.getElementById("indice-texte");
 const boutonValider = document.getElementById("valider-btn");
+// Sélection de l'image de Sébastien Holmes
+const imageSebastien = document.getElementById("image-sebastien");
 
 // 3. Fonction de vérification
 function verifierReponse() {
@@ -29,6 +31,12 @@ function verifierReponse() {
     const bonneReponse = etapes[etapeActuelle].reponse.toLowerCase();
 
     if (reponseUtilisateur === bonneReponse) {
+        
+        // Fait disparaître l'image si on valide la première étape (étape 0)
+        if (etapeActuelle === 0 && imageSebastien) {
+            imageSebastien.style.display = "none";
+        }
+
         etapeActuelle++;
         inputElement.value = ""; // Vide le champ
 
