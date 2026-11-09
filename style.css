@@ -66,3 +66,7 @@ button:hover {
     border-radius: 8px; /* Optionnel : arrondit les coins */
     margin-bottom: 15px; /* Espace sous l'image */
 }
+
+a {
+    color: white;
+}
