@@ -5,13 +5,21 @@ const etapes = [
         hashReponse: "3a3468fa89b2ab7cbfe5400858a8ec0066e9e8defa9a64c993b5f24210244df8" 
     },
     {
-        indice: "Indice 1 : Super ! Première énigme. Qu'est ce qui est vert qui monte et qui descend ?",
+        indice: "Indice 1 : Super ! Première énigme <br /> Qu'est ce qui est vert qui monte et qui descend ?",
         hashReponse: "55de0843e14ab79decddbb86ee039f7efb9c882bf7abb60c5719601e24d0678e" // Sébastien, je ne me suis pas faite chier à te créer un jeu pour que tu triches. Alors pour cette fois seulement tu pourras lire le mot de passe dans le code. Qu'est ce qui est vert qui monte et qui descend ? C’est toi ! Parce que t’es dég que cette méthode ne marche pas et que tu viens de débander ! Tape ton prénom, tricheur. Et sois fair-play. 
 
     },
     {
-        indice: "Indice 2 : <br /><a href='images/origami_renard.pdf' style='color: white;' target='_blank'>Jeux</a> ne suis fait ni de chair ni de poil,<br />Mais mon esprit rusé jamais ne se voile.<br />Sans craindre une tranchante morsure,<br />Trouve mon arme affûtée pour suivre l'aventure !",
+        indice: "Indice 2 : <br /><a href='documents/origami_renard.pdf' style='color: white;' target='_blank'>Jeux</a> ne suis fait ni de chair ni de poil,<br />Mais mon esprit rusé jamais ne se voile.<br />Sans craindre une tranchante morsure,<br />Trouve mon arme affûtée pour suivre l'aventure !",
         hashReponse: "d91082e0ddb6ffb887005b9a09c64f41c9763e5ff4dc8b9016334c10c3fd7318" 
+    },
+    {
+        indice: "Indice 3 : <br /><a href='documents/codage_polychromatique.pdf' style='color: white;' target='_blank'>L'image</a> ment.<br>Le bleu n'est qu'un écran de fumée<br>pour te maintenir endormi dans la Matrice.<br>Filtre l'illusion, grâce à la couleur du réveil,<br>et le mot de passe émergera des pixels.",
+        hashReponse: "ae9d9a87999ace667fa79b2dc4385739397961b35917c8d8e5430db0e92ee782" 
+    },
+    {
+        indice: "Indice 4 : Un ange joue avec mon cœur dans une céleste <a href='documents/Eurythmics - There Must Be An Angel.mp3' style='color: white;' target='_blank'>harmonie</a>,<br>Mais l’oreille s’égare dès que l’écho s’enfuit.<br>Laisse la mélodie mourir au seuil de tes sens,<br>Et convertis le temps en un tableau d’ondes et de fréquences.<br>Sous ce voile léger où la grâce s’élève,<br>Quelle fureur souterraine et électrique y grave son rêve ?";
+        hashReponse: "ecf783a585cbdf9274c4dc944727f6b8e7ad3f9de6f4eebc2d1bb8f69def3625" 
     }
 ];
 
