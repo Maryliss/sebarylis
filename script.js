@@ -15,11 +15,11 @@ const etapes = [
     },
     {
         indice: "Indice 3 : <br /><a href='documents/codage_polychromatique.pdf' style='color: white;' target='_blank'>L'image</a> ment.<br>Le bleu n'est qu'un écran de fumée<br>pour te maintenir endormi dans la Matrice.<br>Filtre l'illusion, grâce à la couleur du réveil,<br>et le mot de passe émergera des pixels.",
-        hashReponse: "ae9d9a87999ace667fa79b2dc4385739397961b35917c8d8e5430db0e92ee782" 
+        hashReponse: "5a7ea559b869286eadaed4c1d5bd43e543f64593f2930ad692d5f0aac15c4b06" 
     },
     {
         indice: "Indice 4 : Un ange joue avec mon cœur dans une céleste <a href='documents/Eurythmics - There Must Be An Angel.mp3' style='color: white;' target='_blank'>harmonie</a>,<br>Mais l’oreille s’égare dès que l’écho s’enfuit.<br>Laisse la mélodie mourir au seuil de tes sens,<br>Et convertis le temps en un tableau d’ondes et de fréquences.<br>Sous ce voile léger où la grâce s’élève,<br>Quelle fureur souterraine et électrique y grave son rêve ?",
-        hashReponse: "ecf783a585cbdf9274c4dc944727f6b8e7ad3f9de6f4eebc2d1bb8f69def3625" 
+        hashReponse: "03ecab669ba200ba17f994677e88894400fd627e6f70439247ce0cbda8ca9a20" 
     }
 ];
 
