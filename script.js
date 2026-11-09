@@ -10,7 +10,7 @@ const etapes = [
 
     },
     {
-        indice: "Indice 2 : <br /><a href='www.sebarylis.fr/images/origami_renard.pdf' target='_blank'>Jeux</a><br />ne suis fait ni de chair ni de poil,<br />Mais mon esprit rusé jamais ne se voile.<br />Sans craindre une tranchante morsure,<br />Trouve mon arme affûtée pour suivre l'aventure !",
+        indice: "Indice 2 : <br /><a href='www.sebarylis.fr/images/origami_renard.pdf' target='_blank'>Jeux</a> ne suis fait ni de chair ni de poil,<br />Mais mon esprit rusé jamais ne se voile.<br />Sans craindre une tranchante morsure,<br />Trouve mon arme affûtée pour suivre l'aventure !",
         hashReponse: "d91082e0ddb6ffb887005b9a09c64f41c9763e5ff4dc8b9016334c10c3fd7318" 
     }
 ];
