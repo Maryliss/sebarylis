@@ -9,7 +9,7 @@ const etapes = [
         hashReponse: "55de0843e14ab79decddbb86ee039f7efb9c882bf7abb60c5719601e24d0678e" // Hash de "sebastien"
     },
     {
-        indice: "Indice 2 : <a href='origami_renard.pdf' target='_blank'>Jeux</a><br />ne suis fait ni de chair ni de poil,<br />Mais mon esprit rusé jamais ne se voile.<br />Sans craindre une tranchante morsure,<br />Trouve mon arme affûtée pour suivre l'aventure !",
+        indice: "Indice 2 : <br /><a href='www.sebarylis.fr/images/origami_renard.pdf' target='_blank'>Jeux</a><br />ne suis fait ni de chair ni de poil,<br />Mais mon esprit rusé jamais ne se voile.<br />Sans craindre une tranchante morsure,<br />Trouve mon arme affûtée pour suivre l'aventure !",
         hashReponse: "d91082e0ddb6ffb887005b9a09c64f41c9763e5ff4dc8b9016334c10c3fd7318" // Hash de "cr0c$"
     }
 ];
