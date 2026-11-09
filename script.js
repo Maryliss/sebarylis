@@ -15,7 +15,7 @@ const etapes = [
     },
     {
         indice: "Indice 3 : <br /><a href='documents/codage_polychromatique.pdf' style='color: white;' target='_blank'>L'image</a> ment.<br>Le bleu n'est qu'un écran de fumée<br>pour te maintenir endormi dans la Matrice.<br>Filtre l'illusion, grâce à la couleur du réveil,<br>et le mot de passe émergera des pixels.",
-        hashReponse: "5a7ea559b869286eadaed4c1d5bd43e543f64593f2930ad692d5f0aac15c4b06" 
+        hashReponse: "8548f4c13a1e3301c2d95e8240529e3b56c3b65e6514b064415e1c3a500c015c" 
     },
     {
         indice: "Indice 4 : Un ange joue avec mon cœur dans une céleste <a href='documents/Eurythmics - There Must Be An Angel.mp3' style='color: white;' target='_blank'>harmonie</a>,<br>Mais l’oreille s’égare dès que l’écho s’enfuit.<br>Laisse la mélodie mourir au seuil de tes sens,<br>Et convertis le temps en un tableau d’ondes et de fréquences.<br>Sous ce voile léger où la grâce s’élève,<br>Quelle fureur souterraine et électrique y grave son rêve ?",
