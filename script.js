@@ -75,7 +75,7 @@ async function verifierReponse() {
             messageElement.className = "message success";
         } else {
             etapeTitre.innerText = "🎉 VICTOIRE !";
-            indiceTexte.innerText = "Félicitations, le coffre-fort est grand ouvert et te révèle l'emplacement de ton cadeau :<br /><br />Je me cache dans la pièce où l'on change de peau,<br />À l'abri des regards, caché par un <strong>rideau</strong>.<br />Faufile ta main derrière les remparts de laine qui me gardent au chaud,<br />C’est dans leur ombre douce que se cache ton cadeau.";
+            indiceTexte.innerText = "Félicitations, le coffre-fort est grand ouvert et te révèle l'emplacement de ton cadeau :Je me cache dans la pièce où l'on change de peau, À l'abri des regards, caché par un rideau. Faufile ta main derrière les remparts de laine qui me gardent au chaud, C’est dans leur ombre douce que se cache ton cadeau.";
             inputElement.style.display = "none";
             boutonValider.style.display = "none";
             
