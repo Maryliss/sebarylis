@@ -6,7 +6,7 @@ const etapes = [
     },
     {
         indice: "Indice 1 : Super ! Première énigme <br /> Qu'est ce qui est vert qui monte et qui descend ?",
-        hashReponse: "55de0843e14ab79decddbb86ee039f7efb9c882bf7abb60c5719601e24d0678e" // Sébastien, je ne me suis pas faite chier à te créer un jeu pour que tu triches. Alors pour cette fois seulement tu pourras lire le mot de passe dans le code. Qu'est ce qui est vert qui monte et qui descend ? C’est toi ! Parce que t’es dég que cette méthode ne marche pas et que tu viens de débander ! Tape ton prénom, tricheur. Et sois fair-play. 
+        hashReponse: "55de0843e14ab79decddbb86ee039f7efb9c882bf7abb60c5719601e24d0678e" // Sébastien, je ne me suis pas faite chier à te créer un jeu pour que tu triches. Alors pour cette fois seulement tu pourras lire le mot de passe dans le code. Qu'est ce qui est vert qui monte et qui descend ? C’est toi ! Parce que t’es dég que cette méthode ne marche pas et que tu viens de débander ! Tape ton prénom, tricheur. Et sois fair-play pour la suite. 
 
     },
     {
@@ -22,8 +22,7 @@ const etapes = [
         hashReponse: "03ecab669ba200ba17f994677e88894400fd627e6f70439247ce0cbda8ca9a20" 
     },
         {
-        indice: "Indice 5 : ERQMRXU ERQMRXU ERQMRXU MHSRUWHOHQRPGXQWBUDQPDLVMHVHUVGDQVODVVLHWWHOHVHFUHWGHPRQFRGHHVWDXFRHXUGHPDUHFHWWHHQGHFDODQWWHVSDVOHPBVWHUHVHYDGHWXGHFRXYULUDVDORUVXQHVLPSOHVDODGH",
-        hashReponse: "363ab4c828cfca6a0cfea4acc005a24c5ee9bb4e7f6804c4c15cc287fa640993" 
+        indice: "Indice 5 : ERQMRXU ERQMRXU ERQMRXU MHSRUWHOHQRPGXQWBUDQPDLVMHVHUVGDQVODVVLHWWH<br />OHVHFUHWGHPRQFRGHHVWDXFRHXUGHPDUHFHWWH<br />HQGHFDODQWWHVSDVOHPBVWHUHVHYDGH<br />WXGHFRXYULUDVDORUVXQHVLPSOH...VDODGH",
     }
 ];
 
@@ -75,7 +74,7 @@ async function verifierReponse() {
             messageElement.className = "message success";
         } else {
             etapeTitre.innerText = "🎉 VICTOIRE !";
-            indiceTexte.innerText = "Félicitations, le coffre-fort est grand ouvert !";
+            indiceTexte.innerText = "Félicitations, le coffre-fort est grand ouvert et te révèle l'emplacement de ton cadeau :<br /><br />Je me cache dans la pièce où l'on change de peau,<br />À l'abri des regards, caché par un <strong>rideau</strong>.<br />Faufile ta main derrière les remparts de laine qui me gardent au chaud,<br />C’est dans leur ombre douce que se cache ton cadeau.";
             inputElement.style.display = "none";
             boutonValider.style.display = "none";
             
